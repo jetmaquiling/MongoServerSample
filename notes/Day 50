@@ -1,0 +1,52 @@
+How to use media queries?
+Starting development in the Mobile
+
+
+
+
+
+Day 50
+
+Making A Level 1 UI.
+Making The User user for Level 1 User
+	Prototype type Of UI
+Objective: 
+	 A UI that will be able to fetch the all articles from the UI. 
+
+Challenge: 
+	1. When fetching a general data and not a specific data, frontend fetches a complicated data.
+	
+	2. Data fetching tends to be slow and lags the frontend.
+
+Possible Solution:
+	1. Follow what is being done in article shower or mern_stack_Projects.
+	
+	2. if state is empty render a loading button.
+	
+
+Day 51	
+
+
+Using the method of cookies
+
+use samesite to avoid cookie pirating
+
+
+document.cookie
+  .split(';')
+  .map(cookie => cookie.split('='))
+  .reduce((accumulator, [key, value]) => ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }), {});
+  
+ 
+LogIn => getLogInForm => send to Server localhost:5000/author/${email}/${password}
+
+====>server
+
+find Similar data => (Data === Found) ? res.{...Data,authStatus:} status 200 : send{authStatus:false} status 404
+
+====>client
+
+(authStatus = true) ? cookie.document setcookies({authStatus: true, auth: id })
+  
+  
+  

@@ -1,0 +1,58 @@
+
+Level 3 - 5
+
+ 
+
+FINISH* Cancel All base64 files link all images in a image website
+
+FINISH* Make a new Section entitled POTOS For Default.
+
+FINISH * In the dashboard/compose restriction is applied in choosing section.
+
+FINISH * In the dashboard/content enable deleteable Articles with confirmation.
+
+FINISH * In the dashboard/compose place the authors name on top or anywhere.
+
+FINISH * In the dashboard/compose make a default system if empty content
+	# Article Position Status = "none"
+	# Title = "Title"
+	# Section = "POTOS"
+	# SubTitle = "SubTitle"
+	# content = "Message"
+	# tags = "POTOS"
+
+FINISH * Change The Top Nav Title From the authors name into the current page user are in.
+
+
+FINISH * Inside the ActionList Slide place the user's name and profile pic.
+
+FINISH * In the dashboard/settings add "change profile pic" 
+
+FINISH * In the dashboard/compose add keywords or tags input for metaTags
+	# Model { articles : { tags: [String] } } 
+
+FINISH * In the dashboard/compose make the subsTitle multiline 
+
+
+FINISH * In The dashboard/composition and dashboard/contents make sure that contents are editable
+	# Make a dashboard/edit/articleId
+	# Make a page similar to the dashboard/compose
+
+
+
+
+
+Admin Control Panel
+
+	FINISH # Authors 
+		FINISH * View all Author
+		 	Show
+		 	# Name
+		 	# AuthorId
+		 	# Total Number of Articles
+		 	# password and email
+		FINISH * Settings 
+		 	ChangeAbles
+		 	# Edit Section Access Restrictions
+		 	# Edit Level Of Authority
+		 	# Delete Author

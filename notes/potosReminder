@@ -1,0 +1,146 @@
+PearlOfTheOrientSeas
+JANUARY 21, 2021
+potos.ph
+https://gravitec.net/blog/how-to-start-a-media-company-in-12-easy-steps/
+
+
+Graphics
+
+* Make A Logo for different Section 
+
+* Make the Pearl Logo 
+
+* Make A Banner for the headline photo and Meta 
+
+* Make A Good Loading component 
+
+
+
+
+Security
+
+* Change Authentication from localStorage to cookie 
+
+* Remove Sensitive Data in LocalStorage 
+
+* add a unique code in the request api localhost:3000/specialcode
+
+* Make an Authentication ID 
+	# author { authenticationID: uuid } 
+
+
+
+Arrangements
+
+* Add comments about the functions purpose and usage
+
+FINISH * Make a State for the url
+	# url = "localhost:5000" for the server request for temporarily while no server yet
+	
+	
+
+
+
+
+Level 3 - 5
+
+
+* In the dashboard/compose and dashboard/editcompose change alert to snackbar. 
+
+* Make a floating button that brings user up in the start page.
+
+* In the the dashboard/ add Percentage for all Authors 
+	Model { percentage: Integer }
+
+
+
+
+
+
+
+Level 1 - 2
+
+FINISH * Add recent Date in the Article
+
+* Add Author's Name and make a page describing author
+	# potos.ph/authors/authorId:
+	
+* Add MetaTags in the article viewer
+	#https://stackoverflow.com/questions/37734150/how-to-update-meta-tags-in-react-js
+	META
+	# Set Subtitle as Description
+	# Set submitted image as the meta Image
+	# Title Will the Title
+	
+* make a NavBar 
+	# Section
+	# Trending
+	# Featuring
+	# Know more about POTOS Writers
+	# Support POTOS
+	# About us
+
+* add Like in The System
+	likes : Integer
+
+
+
+
+Admin Control Panel
+	
+
+	# Articles
+		Insight
+		* View all Articles
+			Show
+			# Sort By Date Created
+			# section
+			# Title
+			# Author
+			# Date Created
+			# Article Position Status
+		* Settings
+			ChangeAbles
+			# edit article 
+				# Get Article Id
+				# Request All Data
+				# Do Not Set To Local Storage
+				# Bring To dashboard/editcomposition
+				# If Update() update to server
+			# edit Article Position Status	
+	# Edit Composition
+		* Edit Position
+		* Edit Author
+		* Sort By Date Created
+		* Edit section
+		* Edit Title
+		* Edit SubTitle
+		* Edit Article Position Status
+		
+		
+		
+	
+
+
+
+
+Complicated Updates 
+
+
+
+* Add Article Position
+	mainEvent
+	trending
+	article
+	none
+
+* ShareAble Content in Facebook
+
+* Add Meta for Every Content Page
+
+* If server not found make a Server Error Page
+
+* Make The Request more trifty by requesting only the needed information
+
+
+
